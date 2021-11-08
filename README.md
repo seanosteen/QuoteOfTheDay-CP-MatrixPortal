@@ -23,13 +23,13 @@ I'm including the list of parts that I used and some important notes to help you
 
 **Software:**
 
-- **A Code or Text Editor** - You are going to be pushing python code from your PC onto the MatrixPortal to run as a loop.  You can use your favorite IDE or text editor to do this, but the folks at Circuit Python recommend the [Mu Editor](https://codewith.mu/) which provides a couple of key advantages:
+- **A Code IDE or Text Editor** - You are going to be pushing python code from your PC onto the MatrixPortal to run as a loop.  You can use your favorite IDE or text editor to do this, but the folks at Circuit Python recommend the [Mu Editor](https://codewith.mu/) which provides a couple of key advantages:
   - It has context-aware inline editing. I'm a sucker for a good auto completion tool.
   - It has a built-in serial console that can read the Circuit Python's standard out data. Very useful while debugging.
 
 - **The Latest Build of Circuit Python** - CP is under constant and rapid development. The code in this project was written against Circuit Python V7.0.0. I strongly recommend you update your microcontroller with the latest version of Circuit Python before you begin.  Initially I had a lot of broken library links and attribute not found errors.  Once I flashed the MatrixPortal with the latest version of CircuitPython, all of those issues went away.
- - [How to install Circuit Python](https://learn.adafruit.com/matrix-portal-new-guide-scroller/install-circuitpython)
- - [Latest versions for the MatrixPortal](https://circuitpython.org/board/matrixportal_m4/)
+  - [How to install Circuit Python](https://learn.adafruit.com/matrix-portal-new-guide-scroller/install-circuitpython)
+  - [Latest versions for the MatrixPortal](https://circuitpython.org/board/matrixportal_m4/)
 
 ## Connecting to the Internet
 
@@ -43,7 +43,7 @@ The MatrixPortal library has a very nice built-in WiFi library. It spawns a back
 
 secrets = {
     'ssid' : '<YOUR WIFI SSID NAME>',
-    'password' : '<YOUR WIFI PASSPHRASE',
+    'password' : '<YOUR WIFI PASSPHRASE>',
     'timezone' : "America/Los_Angeles" # http://worldtimeapi.org/timezones
     }
 
