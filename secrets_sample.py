@@ -4,5 +4,5 @@
 secrets = {
     'ssid' : '<YOUR WIFI SSID NAME>',
     'password' : '<YOUR WIFI PASSPHRASE>',
-    'timezone' : "America/Los_Angeles" # http://worldtimeapi.org/timezones
+    'timezone' : "America/Los_Angeles" 
     }
