@@ -11,6 +11,7 @@ import busio
 from digitalio import DigitalInOut
 import neopixel
 from adafruit_matrixportal.matrixportal import MatrixPortal
+import supervisor
 
 # --- Display setup ---
 matrixportal = MatrixPortal(
@@ -55,6 +56,7 @@ def update_data():
     # pylint: disable=broad-except
     except Exception as error:
         print(error)
+        supervisor.reload()
 
     if not quotes or not colors:
         raise RuntimeError("Please add at least one quote and color to your feeds")
