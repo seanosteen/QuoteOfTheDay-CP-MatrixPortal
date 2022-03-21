@@ -1,10 +1,10 @@
 # Quote of the Day Scrolling Display
 # uses the MatrixPortal webservice fetch and json parsing to display a random quote from ZenQuotes.io
-# Code based on the Adfruit Quote Board sample y John Park (https://learn.adafruit.com/aio-quote-board-matrix-display/code-the-quote-board)
+# Code based on the Adafruit Quote Board sample y John Park
+# (https://learn.adafruit.com/aio-quote-board-matrix-display/code-the-quote-board)
 
 import time
 import random
-import board
 import terminalio
 import board
 import busio
